@@ -1009,19 +1009,19 @@ footer {
     cursor: pointer;
     content: '';
     margin-right: 8.38px;
+    border-radius: 4px;
 }
 
 .contact-form-checkbox:checked+.contact-form-checkbox-label::before {
     background-color: var(--accent-color);
-    background-image: url(../images/icons/icon-check.svg);
+    background-image: url(../images/modal-window/check.svg);
     background-size: contain;
+    background-repeat: no-repeat;
     border: 1px solid var(--accent-color);
 }
 
 .contact-form-checkbox:focus+.contact-form-checkbox-label::before {
     outline: 2px solid var(--accent-color);
 }
-
-
 
 /* =============== /MODAL WINDOW =============== */
