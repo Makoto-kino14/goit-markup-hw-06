@@ -311,7 +311,7 @@
                                 <use href="./images/icons.svg#icon-logo_2_tagline_here"></use>
                             </svg>
                         </a>
-                    </li class="perm-client">
+                    </li>
                       <li class="perm-client">
                         <a class="perm-client-link" href="">
                             <svg class="perm-client-icon" height="92" width="170">
@@ -365,7 +365,6 @@
             </ul>
             </address>
         </div>
-        <div class="footer-call-to-action">
         <div class="footer-social-links">
             <p class="footer-paragraph">ПРИСОЕДИНЯЙТЕСЬ</p>
             <ul class="social-list list">
@@ -401,19 +400,15 @@
         </div>
         <div class="footer-subscribe">
             <p class="footer-paragraph">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
-            <div class="form-email-subscription">
-                <form name="subscription-by-email" class="footer-email-form" >
-                    <label for="e-mail" class="footer-email-label">Email</label>
-                    <input class="footer-email-input" type="email" name="email" placeholder="E-mail" id="e-mail"/>
-                </form>
-                <button class="modal-btn hero-modal-btn footer-button" type="button">Подписаться
+            <form name="subscription-by-email" class="footer-email-form">
+                <input type="email" name="mail" placeholder="E-mail" class="footer-email-input" id="mail">
+                <button class="modal-btn hero-modal-btn footer-button" type="submit">Подписаться
                     <svg class="send-icon-img" height="24" width="24">
                     <use href="./images/icons.svg#icon-send"></use>
                     </svg>
                 </button> 
-            </div>
+            </form>
         </div>
-    </div>
     </div>
     </footer>
 
@@ -429,32 +424,26 @@
             <form class="contact-form">
                 <label class="contact-form-field">
                     <span class="contact-form-field-span">Имя</span>
-                    <div class="contact-form-input-wrapper">
                         <input class="contact-form-input" type="text" required name="user_name" minlength="2" />
-                        <span class="contact-form-icon-span"><svg class="contact-form-icon" height="18" width="18">
+                        <svg class="contact-form-icon" height="18" width="18">
                             <use href="./images/icons.svg#icon-person"></use>
-                        </svg></span>
-                    </div>
+                        </svg>
                 </label>
                 <label class="contact-form-field">
                     <span class="contact-form-field-span">Телефон</span>
-                    <div class="contact-form-input-wrapper">
                         <input class="contact-form-input" type="tel" required name="user_phone_number"
                             pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx" />
-                        <span class="contact-form-icon-span"><svg class="contact-form-icon" height="18" width="18">
+                            <svg class="contact-form-icon" height="18" width="18">
                                 <use href="./images/icons.svg#icon-phone"></use>
-                            </svg></span>
-                    </div>
+                            </svg>
                 </label>
                 <label class="contact-form-field">
                     <span class="contact-form-field-span">Почта</span>
-                    <div class="contact-form-input-wrapper">
                         <input class="contact-form-input" type="email" required name="user_phone_email"
                             title="__________@____.___" />
-                        <span class="contact-form-icon-span"><svg class="contact-form-icon" height="18" width="18"">
+                        <svg class="contact-form-icon" height="18" width="18">
                                 <use href="./images/icons.svg#icon-email"></use>
-                            </svg></span>
-                    </div>
+                            </svg>
                 </label>
                 <label class="contact-form-field">
                     <span class="contact-form-field-span">Комментарий</span>
